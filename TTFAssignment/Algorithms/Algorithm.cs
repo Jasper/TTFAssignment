@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Assignment.Models;
+﻿using Assignment.Models;
 
 namespace Assignment.Algorithms
 {
@@ -11,6 +6,7 @@ namespace Assignment.Algorithms
     {
         protected Input input;
         protected Output output;
+        protected enum X { S, R, T }
 
         public Algorithm(Input input)
         {

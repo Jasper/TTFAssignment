@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using Assignment.Models;
+﻿using Assignment.Models;
 
 namespace Assignment.Algorithms
 {
@@ -19,7 +15,7 @@ namespace Assignment.Algorithms
 
         public override Output result()
         {
-            output.X = "T";
+            output.X = X.T.ToString();
             output.Y = input.D - (input.D * input.F / 100);
 
             return output;
